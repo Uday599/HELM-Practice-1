@@ -1,16 +1,11 @@
+# apiVersion,Name, version of the chart are mandatory fields in this file.
+
 apiVersion: v2
 name: todo-api
 description: A Helm chart for Kubernetes
 icon: https://yt3.googleusercontent.com/pV10FHlHgnbJAxpuUkYnCS8VaT3MqLxmIT8SqGSCvXn4ALgYx_aHaoi5pgPcEPm8ioi0fcIlRA=s900-c-k-c0x00ffffff-no-rj
 
 # A chart can be either an 'application' or a 'library' chart.
-#
-# Application charts are a collection of templates that can be packaged into versioned archives
-# to be deployed.
-#
-# Library charts provide useful utilities or functions for the chart developer. They're included as
-# a dependency of application charts to inject those utilities and functions into the rendering
-# pipeline. Library charts do not define any templates and therefore cannot be deployed.
 type: application
 
 # This is the chart version. This version number should be incremented each time you make changes
