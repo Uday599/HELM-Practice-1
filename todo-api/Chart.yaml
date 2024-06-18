@@ -5,13 +5,13 @@ name: todo-api
 description: A Helm chart for Kubernetes
 icon: https://yt3.googleusercontent.com/pV10FHlHgnbJAxpuUkYnCS8VaT3MqLxmIT8SqGSCvXn4ALgYx_aHaoi5pgPcEPm8ioi0fcIlRA=s900-c-k-c0x00ffffff-no-rj
 type: application
-version: 0.1.0
+version: 0.1.0    # this is chart version
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
-appVersion: "1.16.0"
+appVersion: "1.16.0"    # this is application version, for our reference.
 dependencies:
   - name: mongodb
     version: 13.16.3
