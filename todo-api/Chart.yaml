@@ -13,15 +13,17 @@ version: 0.1.0    # this is chart version
 # It is recommended to use it with quotes.
 appVersion: "1.16.0"    # this is application version, for our reference.
 dependencies:
-  - name: mongodb
-    version: 13.16.3
-    repository: https://charts.bitnami.com/bitnami
+  - name: mongodb                                       # name of the chart
+    version: 13.16.3                                    # version of the chart
+    repository: https://charts.bitnami.com/bitnami      # address of the chart
+
+# https://artifacthub.io/packages/helm/bitnami/mongodb?modal=install
 
 # Notes about Semantic version
 # only for reference
 
-x.x.x
-major.minor.patch
-https://semver.org/ 
+#  x.x.x
+#  major.minor.patch
+#  https://semver.org/ 
 
 
