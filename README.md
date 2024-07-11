@@ -5,15 +5,16 @@
 helm create <chart_name>
 helm create todo-api
 ```
-### This will create a directory structure with all files and folder.
+### This will create a directory structure with all files and folder. 
 ```
+todo-api/
 chars/
 templates/                  # this folder has all k8 manifest files    
-  _helpers.tpl
+  _helpers.tpl              # reusable helper template similar to function in python, which can be used anywhere, can be called using                                include
   deployment.yaml
   hpa.yaml
   ingress.yamk
-  NOTES.txt
+  NOTES.txt                 # Plain text file created after template is deployed, contains information about what to do next after                                   helm installation
   service.yaml
   serviceaccount.yaml
   .helmignore
