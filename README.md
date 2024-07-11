@@ -5,7 +5,7 @@
 helm create <chart_name>
 helm create todo-api
 ```
-This will create a directory structure with all files and folder.
+### This will create a directory structure with all files and folder.
 ```
 chars/
 templates/                  # this folder has all k8 manifest files    
