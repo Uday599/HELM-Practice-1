@@ -22,3 +22,9 @@ chart.yaml                  # Contains chart details like chartname, chartversio
 values.yaml                 # this has all variables details in JINJA template
 ```
 
+## Run lint before installaing the chart.
+
+```
+cd todo-api/
+helm lint .
+```
